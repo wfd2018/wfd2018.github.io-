@@ -1,0 +1,164 @@
+/* video tutorial */
+
+
+/* GENERAL - GLOBAL */
+
+.wrap {
+    width: 90%;
+    max-width: 69rem;
+    margin: 0 auto;
+}
+
+
+.footer a {
+    font-size: 2.5em;
+}
+
+/* initial font-size: 1.0em;  */  
+
+
+
+
+/* NAV - DESKTOP */
+
+
+/*  A responsive Top Bar menu with a centered logo.   */
+
+.topbar-center-logo {
+    background: #282929;
+}
+
+.topbar-center-logo .menu {
+    background: #282929;
+}
+
+.topbar-center-logo .menu a {
+    color: rgba(250, 246, 246, 0.863);
+}
+
+.topbar-center-logo .top-bar-center {
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-center-logo .top-bar-center {
+        display: none;
+    }
+}
+
+.topbar-center-logo-mobile {
+    background: #2c3840;
+}
+
+.topbar-center-logo-mobile .menu-icon {
+    vertical-align: text-top;
+}
+
+.top-bar-left .menu a:hover,
+.top-bar-left .menu a:focus {
+    color: #8bf59d;
+}
+
+.top-bar-right .menu a:hover,
+.top-bar-right .menu a:focus {
+    color: #8bf59d;
+}
+
+
+/* HERO */
+
+.hero {
+    padding: 5rem 0rem;
+    height: 25rem;
+    color: rgba(250, 246, 246, 0.863);
+    background-image: url("../images/001.png");
+}
+
+.hero p {
+    max-width: 80%;
+}
+
+
+/* MAIN */
+
+.main {
+    padding: 5rem 0rem;
+    color: rgba(250, 246, 246, 0.863);
+    background-image: url("../images/001.png");
+}
+
+.main hr {
+    border-color: rgba(250, 246, 246, 0.15);
+}
+
+.main .medium-7 p {
+    max-width: 90%;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-image: url("../images/002.png");
+    height: 31.25rem;
+    padding: 1.875rem 0rem;
+    font-size: 0.75rem;
+}
+
+.footer h4 {
+    color: rgba(250, 246, 246, 0.600);
+    font-size: 1.3em;
+}
+
+.footer hr {
+    border-color: rgba(250, 246, 246, 0.15);
+}
+
+.footer a {
+    display: block;
+    font-size: 1.0em;
+    color: rgba(250, 246, 246, 0.600);
+}
+
+.footer a:hover {
+    color: rgba(122, 117, 117, 0.600);
+} 
+
+
+/*.footnote p {
+    color: rgba(250, 246, 246, 0.600);
+  
+} */ 
+
+
+
+
+
+
+
+
+/* BUTTONS */
+
+a.button:hover,
+a.button:focus {
+    color: #8bf59d;
+    background-color: rgb(22, 22, 21);
+}
+
+a.button.success:hover,
+a.button.success:focus {
+    color: #8bf59d;
+    background-color: rgb(22, 22, 21);
+}
+
+a.button.success {
+    color: rgb(211, 209, 209);
+    background-color: rgb(22, 22, 21);
+}
+
+a.button {
+    color: rgb(211, 209, 209);
+    background-color: rgb(22, 22, 21);
+}
