@@ -78,6 +78,9 @@
     max-width: 80%;
 }
 
+.hero hr {
+   border-color: rgba(250, 246, 246, 0.15);  
+}
 
 /* MAIN */
 
